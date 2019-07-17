@@ -26,6 +26,7 @@ Module.register("MMM-DarkSkyRadar",{
 		iframe.style = "border:0;";
 		iframe.width = this.config.width;
 		iframe.height = this.config.height;
+		iframe.scrolling = "no"
 		
 		let lat = this.config.lat;
 		let lon = this.config.lon;
